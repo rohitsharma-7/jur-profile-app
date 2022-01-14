@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 30px);
+  font-size: 16px;
+}
+.editBtn {
+  margin-left: auto;
+}
+.bold {
+  font-weight: 600;
+}
+.headerWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skillsBlock > span {
+  background-color: darkgoldenrod;
+  color: white;
+  padding: 5px;
+  margin: 4px;
+  border-radius: 8px;
+  display: inline-block;
+}
+.workExperience {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px 10px;
+  box-sizing: border-box;
+}
+.workExperience > div {
+  border: 1px dotted #c7c7c7;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+.workExperience > div > p {
+  display: flex;
+  justify-content: space-between;
+}
